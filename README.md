@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pham Minh Tien
+# PHAM MINH TIEN
 ### AI Engineer
 
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-neitpm-orange?style=flat-square)](https://huggingface.co/neitpm)
