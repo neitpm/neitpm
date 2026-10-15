@@ -3,7 +3,7 @@
 # PHAM MINH TIEN
 ### AI Engineer
 
-I build deep learning systems for **Computer Vision**, **Document AI**, and **Time-Series Forecasting**, with an emphasis on model architecture design, ONNX edge inference, and reproducible evaluation.
+I build deep learning systems for **visual perception and time-series modeling**, with an emphasis on ONNX edge inference and reproducible evaluation.
 
 <br/>
 
