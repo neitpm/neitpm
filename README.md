@@ -13,38 +13,24 @@
 
 ### About Me
 
-I am an **AI Engineer** specializing in Deep Learning, Computer Vision, Document AI, and Multi-Horizon Time-Series Forecasting. I focus on developing clean, reproducible model architectures, verifying numerical parity across frameworks, and packaging models for standalone inference and evaluation.
+I am an **AI Engineer** focused on building reliable, verifiable Deep Learning systems. My work centers on:
+
+- **Computer Vision & Biometrics:** Designing object detection and ROI localization pipelines, with an emphasis on PyTorch–ONNX numerical parity, edge deployment, and inference latency profiling.
+- **Time-Series & Forecasting:** Researching deep architectures (KAN, Transformers, recurrent networks) for multi-horizon sequence modeling and probabilistic quantile risk estimation.
+- **Document AI & OCR:** Developing layout analysis engines, morphological table extraction algorithms, and automated document reconstruction pipelines.
+- **Applied Generative AI:** Building domain-specific retrieval-augmented generation (RAG) systems combining hybrid search (dense embeddings + BM25) and neural reranking.
 
 ---
 
-### What I Do & What I've Built
+### Core Tech Stack
 
-- **Time-Series & Commodity Forecasting:**
-  - Researched and developed **GUMNet** (Wavelet-KAN + Dilated CNN + GRU-Attention with adaptive gating) and **HybridTriNet** (RBF-KAN + GRU + Patch Transformer).
-  - Built multi-horizon evaluation pipelines (1, 5, 10, 15, 20, 30, 60 steps) with train-only scaling and published verified bundles on [Hugging Face](https://huggingface.co/neitpm/hybridtrinet-oil-forecasting).
-
-- **Computer Vision & Biometrics:**
-  - Benchmarked one-stage (SSDLite-MobileNetV3) vs. two-stage (Faster R-CNN) object detection for palm-vein ROI extraction on custom COCO splits.
-  - Exported models to ONNX (Opset 14), verified PyTorch–ONNX numerical parity, and published CPU inference benchmarks on [Hugging Face](https://huggingface.co/neitpm/ssdlite-palm-vein-roi).
-  - Explored custom Universal Inverted Bottleneck (UIB) backbones and 4-scale heads (P2–P5) on YOLO11 for Vietnamese traffic sign localization.
-
-- **Document AI & Layout Analysis:**
-  - Engineered end-to-end OCR and document reconstruction engines converting scanned PDFs into structured Word (`.docx`) files with table boundary extraction (`AdaptiveTableExtractor`), deskewing, and orientation correction.
-
-- **Enterprise Retrieval-Augmented Generation (RAG):**
-  - Built domain-adapted document assistants combining vector search (pgvector), lexical search (BM25), and Cross-Encoder neural reranking with locally served LLMs.
-
----
-
-### Core Technologies
-
-- **Frameworks & Modeling:** PyTorch, TorchVision, Ultralytics YOLO, Transformers, KAN.
-- **Vision & Layout:** OpenCV, Albumentations, PP-Structure, PyMuPDF, pycocotools.
-- **Inference & MLOps:** ONNX Runtime, Hugging Face Hub, Docker Compose, Git.
-- **Data & Backend:** Python, FastAPI, Flask, Streamlit, PostgreSQL (pgvector), NumPy, Pandas.
+- **Deep Learning & Modeling:** PyTorch, TorchVision, Ultralytics YOLO, Transformers, KAN
+- **Computer Vision & OCR:** OpenCV, Albumentations, PP-Structure, PyMuPDF, pycocotools
+- **Inference & MLOps:** ONNX, ONNX Runtime, Hugging Face Hub, Docker Compose, Git
+- **Data & Backend:** Python, FastAPI, Flask, Streamlit, PostgreSQL (pgvector), NumPy, Pandas
 
 ---
 
 <div align="center">
-  <sub>Get in touch: <a href="mailto:neit.pm.work@gmail.com">neit.pm.work@gmail.com</a> · Hugging Face: <a href="https://huggingface.co/neitpm">@neitpm</a></sub>
+  <sub>Get in touch: <a href="mailto:neit.pm.work@gmail.com">neit.pm.work@gmail.com</a> · Explore model releases on <a href="https://huggingface.co/neitpm">Hugging Face</a></sub>
 </div>
